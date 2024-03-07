@@ -20,7 +20,7 @@ bth1.addEventListener('click', function(){
     }
     else {
         tg.MainButton.setText('Вы выбрали товар 1');
-        item +=1
+        item += 1
         tg.MainButton.show();
     }
 });
@@ -30,7 +30,7 @@ bth2.addEventListener('click', function(){
     }
     else {
         tg.MainButton.setText('Вы выбрали товар 2');
-        item +=1
+        item += 1
         tg.MainButton.show();
     }
 });
