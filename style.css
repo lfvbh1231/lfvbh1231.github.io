@@ -6,6 +6,29 @@ body {
     background: var(--tg-color-scheme);
 }
 
+.head__prof>.img1 {
+    border-radius: 70px;
+    margin-top: 20px;
+    padding-left: 30px;
+    width: 50px;
+}
+
+.head__prof {
+    max-width: 390px;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+}
+.head__prof>.status {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    height: 20px;
+    box-shadow: 3px 3px 10px black;
+    background-color:#fff;
+    border-radius: 10px;
+}
+
 .container {
     max-width: 390px;
 }
@@ -17,10 +40,12 @@ body {
 }
 
 .img {
-    width: 150px;
+    width: 130px;
+    border-radius: 20px;
 }
 
 .item {
+    display: inline-block;
     text-align: center;
 }
 
@@ -37,21 +62,22 @@ body {
     transition: background .2s linear;
 }
 
-@media (hover: hover) {
-    button:hover {
-        background: lightgreen;
-    }
-}
-
-@media (hover: none) {
-    button:active {
-        background: lightgreen;
-    }
+.button:hover {
+    background: lightgreen;
 }
 
 .usercard {
     text-align: center;
 }
+
+.row {
+    width: 300px;
+    height: 200;
+    margin-bottom: 30px;
+}
+
+
+
 
 
 
