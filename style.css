@@ -37,8 +37,15 @@ body {
     transition: background .2s linear;
 }
 
+@media (hover: hover) {
 .button:hover {
     background: lightgreen;
+}
+
+@media (hover: none) {
+    button:active {
+        background: lightgreen;
+    }
 }
 
 .usercard {
