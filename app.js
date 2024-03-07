@@ -7,12 +7,12 @@ tg.MainButton.colar = '#2cab37';
 
 let item = '';
 
-let bth1 = document.getElementById(button1);
-let bth2 = document.getElementById(button2);
-let bth3 = document.getElementById(button3);
-let bth4 = document.getElementById(button4);
-let bth5 = document.getElementById(button5);
-let bth6 = document.getElementById(button6);
+let bth1 = document.getElementById('button1');
+let bth2 = document.getElementById('button2');
+let bth3 = document.getElementById('button3');
+let bth4 = document.getElementById('button4');
+let bth5 = document.getElementById('button5');
+let bth6 = document.getElementById('button6');
 
 bth1.addEventListener('click', function(){
     if (tg.MainButton.isVisible) {
@@ -85,8 +85,8 @@ Telegram.WebApp.onEvent('mainButtonClicked', function() {
 let usercard =document.getElementById('usercard');
 let p =document.createElement('p');
 
-p.innerText = '${tg.initDataUnsafe.user.first_name}
-${tg.initDataUnsafe.user.last_name}';
+p.innerText = `${tg.initDataUnsafe.user.first_name}
+${tg.initDataUnsafe.user.last_name}`;
 
 usercard.appendChild(p);
 
