@@ -40,7 +40,7 @@ body {
 }
 
 .img {
-    width: 130px;
+    width: 150px;
     border-radius: 20px;
 }
 
@@ -62,8 +62,16 @@ body {
     transition: background .2s linear;
 }
 
-.button:hover {
-    background: lightgreen;
+@media (hover: hover) {
+    button:hover {
+        background: lightgreen;
+    }
+}
+
+@media (hover: none) {
+    button: active {
+        background: lightgreen;  
+    }
 }
 
 .usercard {
@@ -71,9 +79,7 @@ body {
 }
 
 .row {
-    width: 300px;
-    height: 200;
-    margin-bottom: 30px;
+    width: 390px;
 }
 
 
