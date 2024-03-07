@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    color: var(--tg-color-scheme);
-    background: var(--tg-color-scheme);
+    color: var(--tg-theme-bg-color);
+    background: var(--tg-theme-bg-color);
 }
 
 .head__prof>.img1 {
