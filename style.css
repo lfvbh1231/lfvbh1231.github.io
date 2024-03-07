@@ -38,8 +38,9 @@ body {
 }
 
 @media (hover: hover) {
-.button:hover {
-    background: lightgreen;
+    button:hover {
+        background: lightgreen;
+    }
 }
 
 @media (hover: none) {
