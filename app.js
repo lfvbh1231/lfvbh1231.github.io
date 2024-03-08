@@ -90,4 +90,9 @@ ${tg.initDataUnsafe.user.last_name}`;
 
 usercard.appendChild(p);
 
+let img1 =document.getElementById('img1');
+let b =document.createElement('b')
+
+b.in
+
 

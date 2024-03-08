@@ -7,15 +7,15 @@ body {
 }
 
 .head__prof>.img1 {
-    margin-top: 20px;
-    padding-left: 30px;
-    width: 80px;
+    width: 50px;
 }
 
 .head__prof {
+    align-items: center;
     max-width: 390px;
     margin-bottom: 20px;
     display: flex;
+    box-shadow: 3px 3px 10px black;
     text-align: center;
 }
 
