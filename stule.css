@@ -16,8 +16,6 @@ a{
 }
 
 body{
-    color: var(--tg-theme-text-color);
-    background: var(--tg-theme-bg-color);
     max-width: 400px;
 }
 
@@ -270,7 +268,9 @@ footer {
 .content .courses{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+    grid-template-rows: 300px 300px 300px;
+    grid-gap: 40px;
+    margin-bottom: 40px;
 }
 
 .content .courses .item{
