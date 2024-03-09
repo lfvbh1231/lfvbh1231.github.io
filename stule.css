@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+body{
+    background-color: #f8f8f8;
+    /* max-width: 1366px; */
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: rgb(0, 0, 0, 0.1) 0px 20px 25px -5px, rgb(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+nav .left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+a:hover{
+    color: #4361ee;
+
+}
+
+nav .left .logo img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+nav .button{
+    display: flex;
+    gap: 14px;
+}
+
+nav .button a{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    justify-content: center;
+    text-align: center;
+    gap: 26px;
+    background-color: #fff;
+    opacity: 0.8;
+    background-image: radial-gradient(#2d6a4f 0.75px, transparent 0.75px),
+    radial-gradient(#2d6a4f 0.75px, #ffffff 0.75px);
+    background-size: 30px 30px;
+    background-position: 0 0,15px 15px;
+}
+
+header .info h1{
+    font-weight: 900px;
+    background: #fff;
+}
+
+header .info p{
+    color: #666;
+    font-size: 18px;
+    margin-top: 14px;
+    font-weight: bold;
+    background: #fff;
+}
+
+header .buttons{
+    display: flex;
+    gap: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+header .buttons button{
+    border: none;
+    padding: 8px;
+    width: 140px;
+    border-radius: 10px;
+    background-color: #777;
+    color: #fff;
+    cursor: pointer;
+}
+
+header .buttons button.see-all{
+    background-color: #2d6a4f;
+}
+
+header .search{
+    position: relative;
+    margin-left: 10px;
+    
+}
+
+header .search input{
+    width: 100%;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0px 4px 70px -10px rgba(0, 0, 0, 0.849);
+    outline: none;
+}
+
+header .search button{
+    position: absolute;
+    right: 0;
+    padding: 3.5px;
+    font-size: 23px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.catalog{
+    text-align: center;
+}
+
+
+footer {
+    margin-left: 50px;
+}
