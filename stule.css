@@ -16,7 +16,8 @@ a{
 }
 
 body{
-    background-color: #f8f8f8;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
     /* max-width: 1366px; */
 }
 
