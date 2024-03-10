@@ -1,8 +1,7 @@
 .body{
     color: var(--tg-theme-text-color);
     background: var(--tg-theme-bg-color);
-    width: 320px;
-    max-width: 768px;
+    width: 390px;
 }
 
 .nav{
@@ -54,7 +53,7 @@
 }
 .content{
     margin-left: 15px;
-    width: 170px;
+    width: 130px;
     max-height: 200px;
     display: flex;
     overflow-x: auto;
@@ -65,13 +64,12 @@
 }
 
 .content img{
-    min-width: 170px;
-    height: 170px;
-    line-height: 170px;
+    min-width: 130px;
+    height: 130px;
+    line-height: 130px;
 }
 
 .box .box-1 .opisanie {
-    display: inline-block;
     width: 170px;
     padding: 10px 20px;
     margin: 0;
@@ -79,12 +77,11 @@
 }
 
 .box .box-1 .opisanie p{
-    text-align: center;
     margin: 0;
 }
 
 .box .box-1 .opisanie button{
-    width: 170px;
+    width: 100px;
     border-radius: 18px;
 }
 
