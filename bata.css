@@ -5,6 +5,7 @@
 }
 
 .nav{
+    width: auto;
     align-items: center;
     text-align: center;
     padding-right: 10px;
@@ -16,7 +17,7 @@
 
 .nav .poisk input{
     margin-top: 10px;
-    width: 300px;
+    width: auto;
     border-radius: 15px;
 }
 
@@ -84,4 +85,6 @@
     border-radius: 18px;
 }
 
-
+.box .box-1 .content{
+    align-items: center;
+}
