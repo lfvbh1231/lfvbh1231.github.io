@@ -15,27 +15,19 @@
 }
 
 .header{
-    display: inline-block;
-    margin-left: 450px;
-    align-items: center;
+    display: grid;
     gap: 50px;
-}
-
-header{
-    align-items: center;
 }
 
 .header .raz {
     text-align: center;
     border: none;
-    width: 350px;
-    border-radius: 20px;
-
+    border-radius: 18px;
 } 
 
 .header .raz img{
-    margin-top: 30px;
-    width: 350px;
+    margin-top: 20px;
+    width: 300px;
     border-radius: 18px;
 }
 
