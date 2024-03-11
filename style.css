@@ -26,6 +26,7 @@
 } 
 
 .header .raz img{
+    margin-top: 20px;
     width: 300px;
     border-radius: 18px;
 }
