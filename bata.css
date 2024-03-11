@@ -49,7 +49,6 @@
 .box{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
 }
 .content{
     margin-left: 15px;
@@ -81,7 +80,8 @@
 }
 
 .box .box-1 .opisanie button{
-    width: 100px;
+    width: 120px;
+    height: 20px;
     border-radius: 18px;
 }
 
