@@ -1,15 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     color: var(--tg-theme-text-color);
     background: var(--tg-theme-bg-color);
 }
 
 .nav{
-    align-items: center;
-    text-align: center;
+    display: flex;
     height: 50px;
-    margin-bottom: 40px;
+    margin-top: 10px;
     background-color: #fff;
     box-shadow: rgb(0, 0, 0, 0.1) 0px 20px 25px -5px, rgb(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
@@ -21,6 +21,7 @@
 }
 
 .wrapper{
+    margin-top: 20px;
     max-height: 140px;
     gap: 20px;
     border: none;
@@ -45,9 +46,6 @@
     margin-bottom: 20px;
 }
 
-/* .ctg {
-    max-width: 390px;
-} */
 
 .box{
     display: grid;
