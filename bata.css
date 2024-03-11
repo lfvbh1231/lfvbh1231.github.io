@@ -37,6 +37,7 @@
 }
 
 .catalog{
+    margin-left: 140px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -67,7 +68,7 @@
 .box .box-1 .opisanie {
     width: 170px;
     padding: 10px 20px;
-    margin: 0px;
+    margin: 0;
     border-radius: 18px;
 }
 
