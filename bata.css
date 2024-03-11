@@ -33,12 +33,10 @@
     min-width: 120px;
     height: 120px;
     line-height: 120px;
-    margin-right: 2px;
     border-radius: 30px;
 }
 
 .catalog{
-    margin-left: 170px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -49,7 +47,7 @@
     grid-template-columns: 1fr 1fr;
 }
 .content{
-    margin-left: 40px;
+    margin-left: 15px;
     width: 130px;
     max-height: 200px;
     display: flex;
@@ -69,7 +67,7 @@
 .box .box-1 .opisanie {
     width: 170px;
     padding: 10px 20px;
-    margin: 22px;
+    margin: 0px;
     border-radius: 18px;
 }
 
