@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+}
+
+.nav{
+    align-items: center;
+    text-align: center;
+    padding-right: 10px;
+    height: 50px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    box-shadow: rgb(0, 0, 0, 0.1) 0px 20px 25px -5px, rgb(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.nav .poisk input{
+    margin-top: 10px;
+    width: auto;
+    border-radius: 15px;
+}
+
+.wrapper{
+    max-height: 140px;
+    gap: 20px;
+    border: none;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0px;
+}
+
+.wrapper img{ 
+    min-width: 120px;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 2px;
+    border-radius: 30px;
+}
+
+.catalog{
+    margin-left: 145px;
+    margin-bottom: 20px;
+}
+
+/* .ctg {
+    max-width: 390px;
+} */
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+}
+.content{
+    margin-left: 15px;
+    width: 130px;
+    max-height: 200px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.content::-webkit-scrollbar{
+    width: 0px;
+}
+
+.content img{
+    min-width: 130px;
+    height: 130px;
+    line-height: 130px;
+}
+
+.box .box-1 .opisanie {
+    width: 170px;
+    padding: 10px 20px;
+    margin: 0;
+    border-radius: 18px;
+}
+
+.box .box-1 .opisanie p{
+    margin: 0;
+}
+
+.box .box-1 .opisanie button{
+    width: 100px;
+    border-radius: 18px;
+}
+
+.box .box-1 .content{
+    align-items: center;
+}
