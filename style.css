@@ -9,7 +9,6 @@
 .nav{
     display: flex;
     height: 80px;
-    margin-top: 10px color;
     background-color: #fff;
     /* box-shadow: rgb(0, 0, 0, 0.1) 0px 20px 25px -5px, rgb(0, 0, 0, 0.04) 0px 10px 10px -5px; */
 }
