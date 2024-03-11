@@ -1,5 +1,4 @@
-.body{
-    display: flex;
+*{
     margin: 0;
     padding: 0;
     color: var(--tg-theme-text-color);
@@ -25,7 +24,7 @@
 
 .wrapper{
     max-height: 140px;
-    gap: 10px;
+    gap: 20px;
     border: none;
     display: flex;
     overflow-x: auto;
