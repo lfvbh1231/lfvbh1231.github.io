@@ -91,3 +91,48 @@
 .box .box-1 .content{
     align-items: center;
 }
+
+
+
+
+
+
+
+
+.pop-up{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    overflow-x: auto;
+}
+
+.pop-up img{
+    width: 400px;
+    height: 400px;
+}
+
+.pop-up::-webkit-scrollbar{
+    width: 0px;
+}
+
+.midle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.ctg .pop-up span{
+    position: fixed;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 80px;
+    color:  gray;
+    font-weight: 900;
+    cursor: pointer;
+}
