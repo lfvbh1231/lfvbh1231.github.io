@@ -10,8 +10,8 @@
     display: flex;
     height: 50px;
     margin-top: 10px;
-    background-color: #fff;
-    box-shadow: rgba(181, 8, 158, 0.724) 0px 20px 25px -5px, rgba(211, 8, 184, 0.651) 0px 10px 10px -5px;
+    background-color: #ffffff;
+    box-shadow: rgba(14, 2, 13, 0.354) 0px 20px 25px -5px, rgb(255, 8, 222) 0px 10px 10px -5px;
 }
 
 .header{
